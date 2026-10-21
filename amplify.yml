@@ -1,0 +1,22 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Tự động kiểm tra hoặc tải Hugo Extended nếu môi trường build chưa có
+        - |
+          if ! command -v hugo &> /dev/null; then
+            echo "Hugo not found in PATH, downloading Hugo Extended v0.134.3..."
+            curl -sL https://github.com/gohugoio/hugo/releases/download/v0.134.3/hugo_extended_0.134.3_linux-amd64.tar.gz | tar -xz
+            mv hugo /usr/local/bin/ || export PATH=$PWD:$PATH
+          fi
+          hugo version
+    build:
+      commands:
+        - hugo -b / --minify
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
