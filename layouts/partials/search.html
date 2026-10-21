@@ -6,11 +6,11 @@
 {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
 <script type="text/javascript" src="{{"js/lunr.min.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
 <script type="text/javascript" src="{{"js/auto-complete.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+{{ $baseurl := .Site.BaseURL }}
+{{ if hugo.IsMultilingual }}
+    {{ $baseurl = printf "%s%s" (strings.TrimRight "/" .Site.BaseURL) .Site.LanguagePrefix }}
+{{ end }}
 <script type="text/javascript">
-    {{ if hugo.IsMultilingual }}
-        var baseurl = "{{ strings.TrimRight "/" .Site.BaseURL }}{{.Site.LanguagePrefix}}";
-    {{ else }}
-        var baseurl = "{{.Site.BaseURL}}";
-    {{ end }}
+    var baseurl = "{{ $baseurl }}";
 </script>
 <script type="text/javascript" src="{{"js/search.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
