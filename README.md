@@ -1,19 +1,19 @@
-# ☁️ AWS First Cloud AI Journey - Internship Report
+# AWS First Cloud AI Journey - Internship Report
 
 <div align="center">
 
 [![Deploy Hugo site to GitHub Pages](https://github.com/NguyenThanhTin235/fcj-workshop/actions/workflows/hugo.yml/badge.svg)](https://github.com/NguyenThanhTin235/fcj-workshop/actions/workflows/hugo.yml)
-[![Hugo Extended](https://img.shields.io/badge/Hugo-Extended_v0.134+-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
-[![AWS Study Group](https://img.shields.io/badge/AWS-Study_Group-232F3E?logo=amazon-aws&logoColor=white)](https://facebook.com/groups/awsstudygroupfcj)
+[![Hugo Extended](https://img.shields.io/badge/Hugo-Extended_v0.134+-FF4088)](https://gohugo.io/)
+[![AWS Study Group](https://img.shields.io/badge/AWS-Study_Group-232F3E)](https://facebook.com/groups/awsstudygroupfcj)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**🌐 Website Báo Cáo:** [https://main.dmnzava3due75.amplifyapp.com/](https://main.dmnzava3due75.amplifyapp.com/)
+**Website Báo Cáo:** [https://main.dmnzava3due75.amplifyapp.com/](https://main.dmnzava3due75.amplifyapp.com/)
 
 </div>
 
 ---
 
-## 📌 Giới thiệu (Overview)
+## Giới thiệu (Overview)
 
 Kho lưu trữ (repository) này chứa toàn bộ nội dung và mã nguồn trang web **Báo cáo thực tập** trong chương trình **Workforce Bootcamp - First Cloud AI Journey (FCAJ)** do **Công ty TNHH Amazon Web Services (AWS) Việt Nam** tổ chức.
 
@@ -21,7 +21,7 @@ Website được xây dựng dựa trên nền tảng **Hugo Static Site Generat
 
 ---
 
-## 👨‍💻 Thông tin thực tập sinh (Intern Information)
+## Thông tin thực tập sinh (Intern Information)
 
 | Thông tin | Chi tiết |
 | :--- | :--- |
@@ -37,7 +37,7 @@ Website được xây dựng dựa trên nền tảng **Hugo Static Site Generat
 
 ---
 
-## 🗂️ Cấu trúc nội dung báo cáo (Report Structure)
+## Cấu trúc nội dung báo cáo (Report Structure)
 
 Báo cáo được tổ chức thành 7 phần chính theo chuẩn chương trình:
 
@@ -66,7 +66,7 @@ content/
 
 ---
 
-## 🛠️ Công nghệ sử dụng (Tech Stack)
+## Công nghệ sử dụng (Tech Stack)
 
 * **Static Site Generator:** [Hugo](https://gohugo.io/) (phiên bản `extended` v0.120.0+)
 * **Theme:** [hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn) tùy biến giao diện màu sắc `workshop`
@@ -78,7 +78,7 @@ content/
 
 ---
 
-## 🚀 Hướng dẫn chạy cục bộ (Local Development)
+## Hướng dẫn chạy cục bộ (Local Development)
 
 ### 1. Yêu cầu hệ thống (Prerequisites)
 * Đã cài đặt **Git**
@@ -107,7 +107,7 @@ Toàn bộ file tĩnh được tạo ra sẽ nằm trong thư mục `public/`.
 
 ---
 
-## 🚢 Quy trình triển khai (Deployment)
+## Quy trình triển khai (Deployment)
 
 Mỗi khi có commit mới được đẩy (push) lên nhánh `main`:
 1. **GitHub Actions Workflow** (`.github/workflows/hugo.yml`) sẽ kích hoạt tự động.
@@ -117,7 +117,7 @@ Mỗi khi có commit mới được đẩy (push) lên nhánh `main`:
 
 ---
 
-## 📬 Liên hệ (Contact)
+## Liên hệ (Contact)
 
 * **Nguyễn Thành Tin** - [thanhtin23122@gmail.com](mailto:thanhtin23122@gmail.com)
 * **GitHub:** [@NguyenThanhTin235](https://github.com/NguyenThanhTin235)
