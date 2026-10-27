@@ -7,7 +7,7 @@
 [![AWS Study Group](https://img.shields.io/badge/AWS-Study_Group-232F3E?logo=amazon-aws&logoColor=white)](https://facebook.com/groups/awsstudygroupfcj)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**🌐 Website Báo Cáo:** [https://nguyenthanhtin235.github.io/fcj-workshop/](https://nguyenthanhtin235.github.io/fcj-workshop/)
+**🌐 Website Báo Cáo:** [https://main.dmnzava3due75.amplifyapp.com/](https://main.dmnzava3due75.amplifyapp.com/)
 
 </div>
 
