@@ -97,7 +97,7 @@ hugo server -D
 ```
 
 Truy cập website tại địa chỉ:
-* [http://localhost:1313/fcj-workshop/](http://localhost:1313/fcj-workshop/) (Tiếng Việt & English)
+* [http://localhost:1313/](http://localhost:1313/) (Tiếng Việt & English)
 
 ### 3. Build mã nguồn tĩnh (Build Production Bundle)
 ```bash
