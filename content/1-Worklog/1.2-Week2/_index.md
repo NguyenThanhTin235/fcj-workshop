@@ -8,7 +8,7 @@ pre: " <b> 1.2. </b> "
 
 **Period:** 12/10/2026 → 16/10/2026  
 **Topic:** EC2, IAM Roles, S3 & RDS  
-**Status:** Planned
+**Status:** Completed
 
 ### Week 2 Objectives:
 

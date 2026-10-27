@@ -8,7 +8,7 @@ pre: " <b> 1.1. </b> "
 
 **Thời gian:** 05/10/2026 → 09/10/2026  
 **Chủ đề:** Làm quen, AWS Account, Budgets, Support, IAM & VPC  
-**Trạng thái:** Dự kiến
+**Trạng thái:** Đã hoàn thành
 
 ### Mục tiêu tuần 1:
 

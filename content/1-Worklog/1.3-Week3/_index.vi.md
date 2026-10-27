@@ -8,7 +8,7 @@ pre: " <b> 1.3. </b> "
 
 **Thời gian:** 19/10/2026 → 23/10/2026  
 **Chủ đề:** Amazon RDS, Amazon Lightsail & Containers, EC2 Auto Scaling, Amazon CloudWatch & Route 53  
-**Trạng thái:** Hoàn thành
+**Trạng thái:** Đã hoàn thành
 
 ### Mục tiêu tuần 3:
 

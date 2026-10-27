@@ -8,7 +8,7 @@ pre: " <b> 1.1. </b> "
 
 **Period:** 05/10/2026 → 09/10/2026  
 **Topic:** Onboarding, AWS Account, Budgets, Support, IAM & VPC  
-**Status:** Planned
+**Status:** Completed
 
 ### Week 1 Objectives:
 
