@@ -13,3 +13,5 @@ The worklog records the AWS learning roadmap, studying Monday through Friday.
 **Week 2** (12/10–16/10): [EC2, IAM Roles, S3 & RDS](1.2-week2/)
 
 **Week 3** (19/10–23/10): [RDS Essentials, Amazon Lightsail & Containers, EC2 Auto Scaling, CloudWatch & Route 53](1.3-week3/)
+
+**Week 4** (26/10–30/10): [AWS CLI, Amazon DynamoDB, Amazon ElastiCache & Networking Workshop](1.4-week4/)

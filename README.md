@@ -46,7 +46,8 @@ content/
 ├── 1-Worklog/              # Nhật ký công việc theo từng tuần
 │   ├── 1.1-Week1/          # Tuần 1: Onboarding, AWS Account, Budgets, Support, IAM & VPC
 │   ├── 1.2-Week2/          # Tuần 2: Compute EC2, IAM Roles, Storage S3 & Database RDS
-│   └── 1.3-Week3/          # Tuần 3: RDS Advanced, Lightsail & Containers, Auto Scaling, CloudWatch & Route 53
+│   ├── 1.3-Week3/          # Tuần 3: RDS Advanced, Lightsail & Containers, Auto Scaling, CloudWatch & Route 53
+│   └── 1.4-Week4/          # Tuần 4: AWS CLI, DynamoDB, ElastiCache & Networking Workshop
 ├── 2-Proposal/             # Đề xuất đồ án / giải pháp kỹ thuật
 ├── 3-BlogsPosted/          # Các bài blog kỹ thuật đã đăng trên AWS Study Group
 │   ├── 3.1-Blog1/          # Blog 1: Amazon Bedrock AgentCore Memory & Code Interpreter
