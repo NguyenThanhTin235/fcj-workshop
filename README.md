@@ -50,7 +50,7 @@ content/
 ├── 2-Proposal/             # Đề xuất đồ án / giải pháp kỹ thuật
 ├── 3-BlogsPosted/          # Các bài blog kỹ thuật đã đăng trên AWS Study Group
 │   ├── 3.1-Blog1/          # Blog 1: Amazon Bedrock AgentCore Memory & Code Interpreter
-│   ├── 3.2-Blog2/          # Blog 2: (Đang cập nhật)
+│   ├── 3.2-Blog2/          # Blog 2: Amazon Textract – Vượt xa việc trích xuất văn bản từ tài liệu
 │   └── 3.3-Blog3/          # Blog 3: (Đang cập nhật)
 ├── 4-EventParticipated/    # Các sự kiện công nghệ, hội thảo, meetup đã tham gia
 ├── 5-Workshop/             # Tài liệu thực hành các bài Workshop chuyên sâu
