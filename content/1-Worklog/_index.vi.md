@@ -15,3 +15,5 @@ Worklog ghi lại lộ trình học AWS, học từ Thứ 2 đến Thứ 6.
 **Tuần 3** (19/10–23/10): [Cơ sở dữ liệu RDS, Amazon Lightsail & Containers, EC2 Auto Scaling, CloudWatch & Route 53](1.3-week3/)
 
 **Tuần 4** (26/10–30/10): [AWS CLI, Amazon DynamoDB, Amazon ElastiCache & Networking Workshop](1.4-week4/)
+
+**Tuần 5** (02/11–06/11): [CloudFront, Edge Computing & Kiến trúc High Availability](1.5-week5/)
