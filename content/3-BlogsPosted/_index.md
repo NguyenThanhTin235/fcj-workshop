@@ -14,4 +14,6 @@ This article introduces building an intelligent AI Data Assistant by combining A
 
 This article explores Intelligent Document Processing (IDP) utilizing Amazon Textract within a recruitment system project. It highlights Textract's advantages over conventional OCR, showcasing key-value pair form extraction, table structure preservation, natural language queries, signature detection, and considerations around confidence score thresholds and operational cost optimization.
 
-### Blog 3 - ...
+### [Blog 3 - AWS CODEBUILD COMBINED WITH CODEPIPELINE – EXPLORING HOW TO BUILD CI/CD PIPELINES ON AWS](3.3-blog3/)
+
+This article explores how to build an automated CI/CD pipeline on AWS by combining AWS CodePipeline (workflow orchestration) and AWS CodeBuild (build and test execution). It covers `buildspec.yml` configuration, artifact exchange via Amazon S3, end-to-end integration with GitHub, Amazon ECR, and Amazon ECS, alongside key best practices for IAM least-privilege permissions, secrets management, and build performance optimization.

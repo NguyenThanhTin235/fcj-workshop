@@ -14,4 +14,6 @@ Bài viết giới thiệu giải pháp xây dựng AI Data Assistant thông min
 
 Bài viết phân tích giải pháp xử lý tài liệu thông minh (Intelligent Document Processing - IDP) với dịch vụ Amazon Textract trong dự án hệ thống tuyển dụng. So sánh sự vượt trội của Textract so với OCR truyền thống thông qua khả năng bóc tách cặp khóa - giá trị (Key-Value), bảo toàn cấu trúc bảng biểu, truy vấn thông tin theo câu hỏi tự nhiên (Queries), nhận diện chữ ký, cùng các lưu ý về độ tin cậy (Confidence Score) và tối ưu hóa chi phí vận hành.
 
-### Blog 3 - ...
+### [Blog 3 - AWS CODEBUILD KẾT HỢP CODEPIPELINE – TÌM HIỂU CÁCH XÂY DỰNG CI/CD PIPELINE TRÊN AWS](3.3-blog3/)
+
+Bài viết chia sẻ cách xây dựng quy trình CI/CD tự động hóa trên AWS thông qua việc kết hợp AWS CodePipeline (điều phối quy trình) và AWS CodeBuild (thực thi build & test). Tìm hiểu cấu trúc file `buildspec.yml`, cơ chế trao đổi dữ liệu qua Artifacts trên Amazon S3, kịch bản tích hợp cùng GitHub, Amazon ECR và Amazon ECS, cùng các lưu ý quan trọng về phân quyền IAM, quản lý Secrets và tối ưu hóa hiệu năng build.
