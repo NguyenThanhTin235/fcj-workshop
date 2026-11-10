@@ -24,9 +24,9 @@ pre: " <b> 1.3. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Tìm hiểu Amazon RDS: Multi-AZ (đồng bộ), Read Replicas (bất đồng bộ), lưu trữ gp3 SSD<br>- Triển khai RDS MySQL trong Private Subnet, cấu hình DB Subnet Group đa AZ<br>- Cấu hình Security Group mở cổng 3306 chỉ cho phép kết nối từ EC2 Web Server<br>- Kết nối ứng dụng kiểm tra thao tác CRUD và thiết lập sao lưu tự động / tạo DB Snapshot | 19/10/2026 | 19/10/2026 | <https://000005.awsstudygroup.com/> |
+| 2 | - Tìm hiểu Amazon RDS: Multi-AZ đồng bộ, Read Replicas bất đồng bộ, lưu trữ gp3 SSD<br>- Triển khai RDS MySQL trong Private Subnet, cấu hình DB Subnet Group đa AZ<br>- Cấu hình Security Group mở cổng 3306 chỉ cho phép kết nối từ EC2 Web Server<br>- Kết nối ứng dụng kiểm tra thao tác CRUD và thiết lập sao lưu tự động / tạo DB Snapshot | 19/10/2026 | 19/10/2026 | <https://000005.awsstudygroup.com/> |
 | 3 | - Triển khai VPS WordPress trên Amazon Lightsail, gắn Static IP và cài đặt SSL Let's Encrypt<br>- Di chuyển cơ sở dữ liệu sang Amazon Lightsail Managed Database<br>- Cài đặt plugin `lightsailctl`, Docker CLI và triển khai Public Container Image<br>- Đóng gói ứng dụng web cục bộ thành Docker image, đẩy lên Lightsail Container Service và cấu hình Health check | 20/10/2026 | 20/10/2026 | <https://000045.awsstudygroup.com/><br><https://000046.awsstudygroup.com/> |
-| 4 | - Tạo Launch Template chuẩn hóa với AMI và User Data script tự động cấu hình Web Server<br>- Khởi tạo Application Load Balancer (ALB) và Target Group kèm kiểm tra sức khỏe (Health Check)<br>- Cấu hình Auto Scaling Group (ASG) đa AZ với các thông số Min, Desired, Max Capacity<br>- Kiểm thử các chính sách mở rộng: Manual Scaling, Scheduled Scaling và Dynamic Scaling (Target Tracking CPU > 50%) | 21/10/2026 | 21/10/2026 | <https://000006.awsstudygroup.com/> |
+| 4 | - Tạo Launch Template chuẩn hóa với AMI và User Data script tự động cấu hình Web Server<br>- Khởi tạo Application Load Balancer (ALB) và Target Group kèm kiểm tra sức khỏe<br>- Cấu hình Auto Scaling Group (ASG) đa AZ với các thông số Min, Desired, Max Capacity<br>- Kiểm thử các chính sách mở rộng: Manual Scaling, Scheduled Scaling và Dynamic Scaling (Target Tracking CPU > 50%) | 21/10/2026 | 21/10/2026 | <https://000006.awsstudygroup.com/> |
 | 5 | - Theo dõi chỉ số EC2/RDS trên CloudWatch Metrics, áp dụng Metric Math và Search Expressions<br>- Cài đặt CloudWatch Unified Agent trên EC2 để thu thập Memory/Disk và file log hệ điều hành<br>- Phân tích nhật ký tập trung với CloudWatch Logs Insights bằng câu lệnh truy vấn thống kê<br>- Thiết lập CloudWatch Alarms gửi email cảnh báo qua Amazon SNS và dựng CloudWatch Dashboard tổng hợp | 22/10/2026 | 22/10/2026 | <https://000008.awsstudygroup.com/> |
 | 6 | - Tìm hiểu kiến trúc Hybrid DNS với Route 53 Resolver: Inbound/Outbound Endpoints và Resolver Rules<br>- Khởi tạo môi trường giả lập On-premises với Active Directory Domain Controller qua CloudFormation<br>- Cấu hình Route 53 Outbound Endpoint & Resolver Rule chuyển tiếp truy vấn miền on-prem<br>- Cấu hình Route 53 Inbound Endpoint cho phép on-prem phân giải Private Hosted Zone trên AWS<br>- Kiểm tra phân giải DNS hai chiều thành công và dọn dẹp tài nguyên lab | 23/10/2026 | 23/10/2026 | <https://000010.awsstudygroup.com/> |
 
@@ -43,7 +43,7 @@ pre: " <b> 1.3. </b> "
   * Tách cơ sở dữ liệu sang Lightsail Managed Database nâng cao tính sẵn sàng.
   * Thành thạo công cụ `lightsailctl`, đóng gói và triển khai container trên Lightsail Container Service kèm cấu hình Health check.
 * **Co giãn tự động & Cân bằng tải với EC2 Auto Scaling:**
-  * Hiểu sâu nguyên lý co giãn đàn hồi (Elasticity) và phân phối tải lưu lượng với Application Load Balancer (ALB).
+  * Hiểu sâu nguyên lý co giãn đàn hồi và phân phối tải lưu lượng với Application Load Balancer (ALB).
   * Chuẩn hóa môi trường máy chủ thông qua Launch Template và Target Group Health Checks.
   * Vận hành Auto Scaling Group đa AZ, kiểm thử thành công chính sách co giãn tự động theo tải CPU thực tế.
 * **Giám sát tập trung với Amazon CloudWatch:**

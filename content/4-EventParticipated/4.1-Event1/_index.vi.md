@@ -70,9 +70,9 @@ Tham gia buổi meet up First Cloud AI Journey tại Bitexco là một trải ng
 
 ### Bài học rút ra
 
-* **Tư duy đưa giải pháp lên production:** Khoảng cách giữa một sản phẩm thử nghiệm (PoC) và hệ thống chạy thực tế rất lớn, đòi hỏi phải giải quyết triệt để các bài toán về độ trễ thời gian thực, chi phí vận hành và ranh giới an toàn thông tin.
+* **Tư duy đưa giải pháp lên production:** Khoảng cách giữa một sản phẩm thử nghiệm PoC và hệ thống chạy thực tế rất lớn, đòi hỏi phải giải quyết triệt để các bài toán về độ trễ thời gian thực, chi phí vận hành và ranh giới an toàn thông tin.
 * **Chiến lược tối ưu chi phí hạ tầng:** Không nhất thiết phải sử dụng các tài nguyên lớn đắt đỏ; việc phối hợp thông minh giữa EC2 Spot, kiến trúc MicroVM và dọn dẹp bộ nhớ định kỳ có thể giúp giảm thiểu chi phí đáng kể mà vẫn đảm bảo hiệu năng.
-* **Bảo mật từ khâu thiết kế (Security by Design):** Luôn áp dụng nguyên tắc đặc quyền tối thiểu và đưa khâu kiểm thử bảo mật vào sớm trong quy trình phát triển (Shift-left security), kết hợp rà soát mã nguồn tự động để ngăn ngừa rủi ro ngay từ bước Pull Request.
+* **Bảo mật từ khâu thiết kế:** Luôn áp dụng nguyên tắc đặc quyền tối thiểu và đưa khâu kiểm thử bảo mật vào sớm trong quy trình phát triển theo hướng shift-left, kết hợp rà soát mã nguồn tự động để ngăn ngừa rủi ro ngay từ bước Pull Request.
 * **Chủ động kết nối và học hỏi:** Việc tham gia các sự kiện cộng đồng và chủ động trao đổi với các chuyên gia giúp mở rộng góc nhìn kỹ thuật, cập nhật nhanh chóng xu hướng công nghệ mới và định hướng rõ ràng hơn cho sự nghiệp.
 
 ### Một số hình ảnh khi tham gia sự kiện
@@ -87,4 +87,4 @@ Tham gia buổi meet up First Cloud AI Journey tại Bitexco là một trải ng
 <p align="center"><em>Kiến trúc chi tiết hệ thống Voice-AI Contact Center trên nền tảng AWS (EKS, Amazon Bedrock, ElastiCache, RDS)</em></p>
 
 ![Không gian sự kiện và phần trình bày kiến trúc](/images/event1/event1-presentation-overview.jpg)
-<p align="center"><em>Toàn cảnh không gian chia sẻ kỹ thuật tại văn phòng AWS (Bitexco Financial Tower)</em></p>
+<p align="center"><em>Toàn cảnh không gian chia sẻ kỹ thuật tại văn phòng AWS Bitexco Financial Tower</em></p>

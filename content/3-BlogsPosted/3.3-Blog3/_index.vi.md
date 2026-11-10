@@ -31,7 +31,7 @@ Ngoài ra, CodePipeline còn hỗ trợ theo dõi trạng thái của từng Sta
 
 Nếu CodePipeline là thành phần điều phối thì CodeBuild chính là nơi thực hiện các công việc build và kiểm thử.
 
-AWS CodeBuild là dịch vụ build được quản lý hoàn toàn (fully managed). Dịch vụ này cung cấp môi trường tính toán để thực thi các lệnh cần thiết mà không phải tự thiết lập và duy trì máy chủ build.
+AWS CodeBuild là dịch vụ build được quản lý hoàn toàn. Dịch vụ này cung cấp môi trường tính toán để thực thi các lệnh cần thiết mà không phải tự thiết lập và duy trì máy chủ build.
 
 Một trong những thành phần quan trọng nhất khi làm việc với CodeBuild là file `buildspec.yml`. Đây là file cấu hình YAML mô tả những công việc cần thực hiện trong quá trình build.
 

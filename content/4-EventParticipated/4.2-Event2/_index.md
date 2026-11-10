@@ -38,7 +38,7 @@ pre: " <b> 4.2. </b> "
 
 ### Detailed Session Summaries
 
-#### Session 1: Effective AWS Learning Pathways (06:46 - 22:45)
+#### Session 1: Effective AWS Learning Pathways
 * Speaker: Minh Tuấn
 * Summary:
   * Shared practical approaches to building a personalized AWS learning path from scratch toward professional certifications such as Solutions Architect and Developer.
@@ -46,7 +46,7 @@ pre: " <b> 4.2. </b> "
   * Introduced gamified learning through AWS Cloud Quest, where learners take on the role of a city engineer to resolve real infrastructure issues, reinforcing concepts much better than rote memorization.
   * Emphasized doing hands-on labs to build troubleshooting intuition, which is essential for tackling scenario-based exam questions.
 
-#### Session 2: Accelerating Software Development with AI (22:50 - 46:30)
+#### Session 2: Accelerating Software Development with AI
 * Speaker: Henry Đức Bùi (Head of Engineering at Cloud Tinker)
 * Summary:
   * Discussed reshaping engineering mindsets in the AI era, treating AI as a capable pair programmer rather than a human replacement.
@@ -54,7 +54,7 @@ pre: " <b> 4.2. </b> "
   * Built automated End-to-End (E2E) testing pipelines by generating realistic user-flow test cases with AI, catching regressions on CI/CD before deploying to staging.
   * Focused on team efficiency: freeing engineers from repetitive manual checks so they can concentrate on architectural design and core business logic.
 
-#### Session 3: 3 Months Internship Journey at First Cloud Journey (46:36 - 1:19:30)
+#### Session 3: 3 Months Internship Journey at First Cloud Journey
 * Speaker: Phúc Khang
 * Summary:
   * Reflected on the 3-month internship graduation project: building a real-time Multiplayer Web Game running entirely on a Serverless stack.
@@ -67,7 +67,7 @@ pre: " <b> 4.2. </b> "
     * Reducing Lambda cold start latency through Provisioned Concurrency and trimmed deployment bundles.
     * Adopting an event-driven mindset: keeping services decoupled and modular with built-in error handling.
 
-#### Session 4: AWS Lambda Web Function (1:19:36 - 1:40:43)
+#### Session 4: AWS Lambda Web Function
 * Speaker: Thịnh Nguyễn (Dev Cloud Engineer at Styl Solution)
 * Summary:
   * Analyzed bottlenecks in traditional Lambda and API Gateway pairings: high request-based costs at scale, multi-hop network latency, and the 29-second timeout ceiling.
@@ -76,7 +76,7 @@ pre: " <b> 4.2. </b> "
     * Secure the Function URL using Origin Access Control (OAC), ensuring only authorized traffic through the CDN can invoke the function.
     * Add AWS WAF at the edge, eliminate API Gateway charges entirely, reduce network latency, and extend maximum execution time up to 15 minutes.
 
-#### Session 5: Building Asynchronous Systems with Amazon SQS (1:40:57 - 1:59:15)
+#### Session 5: Building Asynchronous Systems with Amazon SQS
 * Speaker: Cẩm Đào
 * Summary:
   * Discussed shifting from synchronous request-response models to asynchronous event queues to ease database pressure and improve response times for users.
@@ -84,7 +84,7 @@ pre: " <b> 4.2. </b> "
   * Compared Short Polling with Long Polling, demonstrating how Long Polling reduces empty API calls, lowers querying costs, and speeds up message retrieval.
   * Configured Dead Letter Queues (DLQ) with a defined retry policy (maxReceiveCount) to isolate failed messages, allowing engineering teams to inspect errors without interrupting main workflows.
 
-#### Session 6: Practical Guide to Open Source Contributions (1:59:17 - 2:27:00)
+#### Session 6: Practical Guide to Open Source Contributions
 * Speaker: Hùng Trần (Senior Engineer at NAP)
 * Summary:
   * Demystified open-source participation: newcomers do not need to be veteran experts or read entire massive codebases to start contributing.
