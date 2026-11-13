@@ -1,0 +1,348 @@
+{
+	"Name": " Production SMB Pricing",
+	"Total Cost": {
+		"monthly": "28.08",
+		"upfront": "0.00",
+		"12 months": "336.96"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "10/30/2026",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=b88f16b1a3adbc422df267b8ddd3724e74ed9dfe"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "AWS Lambda",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"Architecture": "x86",
+					"Invoke Mode": "Buffered",
+					"Amount of ephemeral storage allocated": "512 MB",
+					"Number of requests": "50000 per month"
+				}
+			},
+			{
+				"Service Name": "Amazon API Gateway",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.19",
+					"upfront": "0.00",
+					"12 months": "2.28"
+				},
+				"Properties": {
+					"HTTP API requests units": "exact number",
+					"Average size of each request": "34 KB",
+					"REST API request units": "exact number",
+					"Cache memory size (GB)": "None",
+					"WebSocket message units": "exact number",
+					"Average message size": "32 KB",
+					"Requests": "50000 per month",
+					"Average connection duration": "15 minutes",
+					"Messages": "10000 per month",
+					"Average connection rate": "55 per day"
+				}
+			},
+			{
+				"Service Name": "Amazon CloudFront",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"Free Plan": "1"
+				}
+			},
+			{
+				"Service Name": "AWS Web Application Firewall (WAF)",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.03",
+					"upfront": "0.00",
+					"12 months": "0.36"
+				},
+				"Properties": {
+					"Number of Rules added per Web ACL": "1 per month",
+					"Number of Rule Groups per Web ACL": "5 per month",
+					"Number of Rules inside each Rule Group": "1 per month"
+				}
+			},
+			{
+				"Service Name": "Amazon Cognito",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.01",
+					"upfront": "0.00",
+					"12 months": "0.12"
+				},
+				"Properties": {
+					"Optimization Rate for Token Requests": "0",
+					"Optimization Rate for App Clients": "0",
+					"Advanced security features": "Disabled",
+					"Number of monthly active users (MAU)": "1500"
+				}
+			},
+			{
+				"Service Name": "S3 Standard",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.23",
+					"upfront": "0.00",
+					"12 months": "2.76"
+				},
+				"Properties": {
+					"S3 Standard storage": "5 GB per month",
+					"PUT, COPY, POST, LIST requests to S3 Standard": "20000",
+					"GET, SELECT, and all other requests from S3 Standard": "50000"
+				}
+			},
+			{
+				"Service Name": "Data Transfer",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {}
+			},
+			{
+				"Service Name": "Amazon GuardDuty",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.79",
+					"upfront": "0.00",
+					"12 months": "9.48"
+				},
+				"Properties": {
+					"Total Size of S3 Objects scanned per month": "4 GB per month"
+				}
+			},
+			{
+				"Service Name": "Amazon Simple Queue Service (SQS)",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.02",
+					"upfront": "0.00",
+					"12 months": "0.24"
+				},
+				"Properties": {
+					"Standard queue requests": "0.05 million per month"
+				}
+			},
+			{
+				"Service Name": "Amazon EventBridge",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.02",
+					"upfront": "0.00",
+					"12 months": "0.24"
+				},
+				"Properties": {
+					"Size of the payload": "1 KB",
+					"Number of requests": "50000 per month"
+				}
+			},
+			{
+				"Service Name": "Step Functions - Standard Workflows",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.30",
+					"upfront": "0.00",
+					"12 months": "3.60"
+				},
+				"Properties": {
+					"Workflow requests": "2000 per month",
+					"State transitions per workflow": "8"
+				}
+			},
+			{
+				"Service Name": "Anthropic",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "11.70",
+					"upfront": "0.00",
+					"12 months": "140.40"
+				},
+				"Properties": {
+					"Select the inference route": "Global",
+					"Select the inference type": "On Demand - Standard",
+					"Average requests per minute": "1",
+					"Hours per day at this rate": "1",
+					"Average input tokens per request": "2500",
+					"Average output tokens per request": "800"
+				}
+			},
+			{
+				"Service Name": "DynamoDB on-demand capacity",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "1.25",
+					"upfront": "0.00",
+					"12 months": "15.00"
+				},
+				"Properties": {
+					"Table class": "Standard",
+					"Average item size (all attributes)": "1 KB",
+					"Data storage size": "5 GB"
+				}
+			},
+			{
+				"Service Name": "Amazon Simple Email Service (SES)",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.30",
+					"upfront": "0.00",
+					"12 months": "3.60"
+				},
+				"Properties": {
+					"Email messages sent": "3000 per month"
+				}
+			},
+			{
+				"Service Name": "AWS Key Management Service",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "1.15",
+					"upfront": "0.00",
+					"12 months": "13.80"
+				},
+				"Properties": {
+					"Number of customer managed Customer Master Keys (CMK)": "1",
+					"Number of symmetric requests": "50000"
+				}
+			},
+			{
+				"Service Name": "Amazon CloudWatch",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "2.82",
+					"upfront": "0.00",
+					"12 months": "33.87"
+				},
+				"Properties": {
+					"Number of mobile OTEL events and spans or spans per visit": "70",
+					"Mobile sampling rate": "1",
+					"Standard Logs: Data Ingested": "5 GB",
+					"Number of Standard Resolution Alarm Metrics": "3"
+				}
+			},
+			{
+				"Service Name": "AWS Amplify",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "2.87",
+					"upfront": "0.00",
+					"12 months": "34.44"
+				},
+				"Properties": {
+					"Select build instance size": "Standard (8 GB Memory, 4 vCPUs)",
+					"Duration of each request (in ms)": "500",
+					"Number of build minutes": "50 per month",
+					"Data stored per month": "5 GB",
+					"Data served per month": "15 GB"
+				}
+			},
+			{
+				"Service Name": "Amazon Textract",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "6.00",
+					"upfront": "0.00",
+					"12 months": "72.00"
+				},
+				"Properties": {
+					"Number of pages": "4000"
+				}
+			},
+			{
+				"Service Name": "AWS Secrets Manager",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.40",
+					"upfront": "0.00",
+					"12 months": "4.80"
+				},
+				"Properties": {
+					"Number of secrets": "1",
+					"Average duration of each secret": "30 days",
+					"Number of API calls": "1 per month"
+				}
+			},
+			{
+				"Service Name": "AWS CloudTrail",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"Management events units": "millions",
+					"Management event trails": "1",
+					"Read management trails": "1",
+					"Data events units": "millions",
+					"S3 trails": "1",
+					"Lambda trails": "1",
+					"Network activity events units": "millions",
+					"Network activity event trails": "1",
+					"Insight events units": "millions",
+					"Number of trails and/or event data stores where Insights events are enabled": "1"
+				}
+			},
+			{
+				"Service Name": "AWS IAM Access Analyzer",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"Number of analyzers per account": "1"
+				}
+			},
+			{
+				"Service Name": "Amazon Augmented AI",
+				"Region": "US East (Ohio)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {}
+			}
+		]
+	}
+}

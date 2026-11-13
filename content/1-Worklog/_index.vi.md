@@ -17,3 +17,5 @@ Worklog ghi lại lộ trình học AWS, học từ Thứ 2 đến Thứ 6.
 **Tuần 4** (26/10–30/10): [AWS CLI, Amazon DynamoDB, Amazon ElastiCache & Networking Workshop](1.4-week4/)
 
 **Tuần 5** (02/11–06/11): [CloudFront, Edge Computing & Kiến trúc High Availability](1.5-week5/)
+
+**Tuần 6** (09/11–13/11): [Database Migration, Serverless Automation với AWS Lambda & Monitoring với CloudWatch/Grafana](1.6-week6/)

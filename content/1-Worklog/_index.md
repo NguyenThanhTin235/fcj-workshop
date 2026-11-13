@@ -17,3 +17,5 @@ The worklog records the AWS learning roadmap, studying Monday through Friday.
 **Week 4** (26/10–30/10): [AWS CLI, Amazon DynamoDB, Amazon ElastiCache & Networking Workshop](1.4-week4/)
 
 **Week 5** (02/11–06/11): [CloudFront, Edge Computing & High Availability Architecture](1.5-week5/)
+
+**Week 6** (09/11–13/11): [Database Migration, Serverless Automation with Lambda & CloudWatch/Grafana Monitoring](1.6-week6/)
