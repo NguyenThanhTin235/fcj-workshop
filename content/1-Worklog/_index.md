@@ -19,3 +19,5 @@ The worklog records the AWS learning roadmap, studying Monday through Friday.
 **Week 5** (02/11–06/11): [CloudFront, Edge Computing & High Availability Architecture](1.5-week5/)
 
 **Week 6** (09/11–13/11): [Database Migration, Serverless Automation with Lambda & CloudWatch/Grafana Monitoring](1.6-week6/)
+
+**Week 7** (16/11–20/11): [Systems Manager Session Manager & Infrastructure as Code (CloudFormation, AWS CDK)](1.7-week7/)
