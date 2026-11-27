@@ -21,3 +21,5 @@ Worklog ghi lại lộ trình học AWS, học từ Thứ 2 đến Thứ 6.
 **Tuần 6** (09/11–13/11): [Database Migration, Serverless Automation với AWS Lambda & Monitoring với CloudWatch/Grafana](1.6-week6/)
 
 **Tuần 7** (16/11–20/11): [Systems Manager Session Manager & Infrastructure as Code (CloudFormation, AWS CDK)](1.7-week7/)
+
+**Tuần 8** (23/11–27/11): [Three-Tier CloudFormation, EC2 Right-Sizing, VPC Flow Logs, Quản trị chi phí IAM & EBS Backup](1.8-week8/)

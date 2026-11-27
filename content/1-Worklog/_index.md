@@ -21,3 +21,5 @@ The worklog records the AWS learning roadmap, studying Monday through Friday.
 **Week 6** (09/11–13/11): [Database Migration, Serverless Automation with Lambda & CloudWatch/Grafana Monitoring](1.6-week6/)
 
 **Week 7** (16/11–20/11): [Systems Manager Session Manager & Infrastructure as Code (CloudFormation, AWS CDK)](1.7-week7/)
+
+**Week 8** (23/11–27/11): [Three-Tier CloudFormation, EC2 Right-Sizing, VPC Flow Logs, IAM Cost Governance & EBS Backup](1.8-week8/)
